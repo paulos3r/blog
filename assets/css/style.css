@@ -80,6 +80,9 @@ header{
 .mobile-menu{
     display: none;
 }
+main{
+    background-color: rgb(190, 190, 190);
+}
 article{
     display: flex;
     width: 100%;
@@ -108,17 +111,28 @@ article{
 }
 .section-contato .right{
     display: flex;
-    list-style: none;
     align-items: center;
-    justify-content: end;
     padding: 0 1rem 0 0;
+    justify-content: space-between;
 }
-
+.bola{
+    background-color: black;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+}
+.right-contato{
+    display: flex;
+    align-items: center;
+}
 .section-contato .left{
     display: flex;
     justify-content: left;
     align-items: center;
-
+}
+.left-contato{
+    display: flex;
+    align-items: center;
 }
 .section-conteudo img{
     width: 60px;
