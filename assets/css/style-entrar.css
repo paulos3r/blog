@@ -10,15 +10,11 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #0c0ce94d;
 }
 .container{
-    width: 80%;
-    height: 80vh;
+    width: 100%;
+    height: 100vh;
     display: flex;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 
 .form-image{
@@ -30,19 +26,20 @@ body{
     padding: 1rem;
 }
 .form-image img{
-    width: 31rem;
+    /* width: 25rem; */
+    width: 50vw;
+    height: 50vw;
 }
 .form{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    padding: 3rem;
 }
 .form-header{
-    margin-bottom: 3rem;
+    margin-bottom: 1.1rem;
     display: flex;
     justify-content: space-between;
 }
@@ -83,6 +80,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 1rem;
+
 }
 
 .input-box{
@@ -92,11 +90,10 @@ body{
 }
 
 .input-box input{
-    margin: 0.6rem 0;
-    padding: 0.8rem 1.2rem;
+    padding: 5px ;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
+    box-shadow: 1px 1px #0000001c;
 }
 
 .input-box input:hover{
@@ -119,7 +116,7 @@ body{
 
 .continue-button button{
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 1.3rem;
     border:none;
     background-color: #6c63ff;
     padding: 0.62rem;
@@ -138,9 +135,9 @@ body{
     color: #fff;
 }
 
-@media screen and (max-width: 1333px) {
+/* @media screen and (min-width: 300px) {
     .form-image{
-        display: none;
+        display: block;
     }
     .container{
         width: 50%;
@@ -148,8 +145,33 @@ body{
     .form{
         width: 100vw;
     }
+} */
+
+@media screen and (max-width:900px) {
+    .container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-image{
+        height: 50vw;
+        width: 100vw;
+        background-color: #fde3a7d7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .form-image img{
+        width: 50vw;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
 }
-@media screen and (max-width: 1064px) {
+/* @media screen and (max-width: 1333px) {
     .container{
         width: 90%;
         height: auto;
@@ -161,4 +183,4 @@ body{
         max-height: 10rem;
         padding-right: 5rem;
     }
-}
+} */
