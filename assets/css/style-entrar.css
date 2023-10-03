@@ -90,10 +90,10 @@ body{
 }
 
 .input-box input{
-    padding: 5px ;
+    padding: 1rem ;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px #0000001c;
+    box-shadow: 1px 1px #4747472d;
 }
 
 .input-box input:hover{
@@ -101,11 +101,11 @@ body{
 }
 
 .input-box input:focus-visible{
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #6b63ff3d;
 }
 
 .input-box label{
-    font-size: 0.75rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #000000c0;
 }
@@ -119,7 +119,7 @@ body{
     margin-top: 1.3rem;
     border:none;
     background-color: #6c63ff;
-    padding: 0.62rem;
+    padding: 1.1rem;
     border-radius:5px;
     cursor: pointer;
 }
