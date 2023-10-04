@@ -125,6 +125,7 @@ hr{
     background: #bcbfca;
 }
 .bottom{
+    display: block;
     width: 100%;
     background-color: #24252a;
     position: fixed;
@@ -135,6 +136,18 @@ hr{
 .bottom-span{
     font-weight: 300;
     color: #fff;
+}
+.rede-social .icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.rede-social .icon .icon-rede img{
+    width: 2rem;
+    height: 2rem;
+    margin: 0.30rem;
+    border-radius: 10%;
+    background-color: #DD4B39;
 }
 @media screen and (max-width: 730px) {
     .nav-bar{
