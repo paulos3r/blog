@@ -141,6 +141,7 @@ hr{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    list-style: none;
 }
 .rede-social .icon .icon-rede img{
     width: 2rem;
